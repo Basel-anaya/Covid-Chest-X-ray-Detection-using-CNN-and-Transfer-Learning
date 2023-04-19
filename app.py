@@ -18,8 +18,6 @@ st.set_page_config(page_title='Covid Chest X-ray Detection', page_icon=':microbe
 # Load the selected model
 model_paths = {
     "CNN Model": "Model/CNN_Model.h5",
-    "ResNet50 Model": "Model/ResNet50_Model.h5",
-    "VGG16 Model": "Model/VGG16_Model.h5"
 }
 # Creating a Sidebar for the Model selection
 model_name = st.sidebar.selectbox("Select the model to use", list(model_paths.keys()), index=0)
