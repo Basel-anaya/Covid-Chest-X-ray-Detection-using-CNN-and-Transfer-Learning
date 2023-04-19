@@ -3,8 +3,6 @@ import tensorflow as tf
 import requests
 import PIL.Image
 import os
-import time
-from io import BytesIO
 from keras.utils.image_utils import load_img, img_to_array
 import numpy as np
 
