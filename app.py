@@ -16,12 +16,7 @@ st.set_page_config(page_title='Covid Chest X-ray Detection', page_icon=':microbe
 
 ######################  Models and Classes  ######################
 # Load the selected model
-model_paths = {
-    "CNN Model": "Model/CNN_Model.h5",
-}
-# Creating a Sidebar for the Model selection
-model_name = st.sidebar.selectbox("Select the model to use", list(model_paths.keys()), index=0)
-model = tf.keras.models.load_model(model_paths[model_name])
+model = tf.keras.models.load_model("Model/CNN_Model.h5")
 
 # Define the class labels
 class_labels = ['covid', 'virus', 'normal']
