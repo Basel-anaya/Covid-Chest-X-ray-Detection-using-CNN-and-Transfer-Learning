@@ -8,7 +8,6 @@ git clone https://github.com/your-username/covid-chest-xray-detection.git
 2. Install the required packages using the `requirements.txt` file:
 ``` git
 pip install -r requirements.txt
-
 ```
 3. Open a `terminal` and navigate to the cloned repository:
 ``` bash
