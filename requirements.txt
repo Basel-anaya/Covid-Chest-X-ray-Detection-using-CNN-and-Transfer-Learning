@@ -1,0 +1,7 @@
+tensorflow==2.12.0
+keras==2.12.0
+numpy==1.23.0
+streamlit==1.21.0
+requests==2.24
+os-sys==2.1.3
+spacy==2.1.0
